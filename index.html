@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Assignment</title>
+    <style>
+      h1{
+        color: maroon;
+        font-size: 50px;
+      }
+      #white-text:hover{
+        color: antiquewhite;
+        background-color: brown;
+        width: fit-content;
+      }
+      .navy-text{
+        color: navy;
+      }
+      div h3{
+        color: orangered;
+      }
+      div{
+        background-color: yellow;
+      }
+      .green-text{
+        color: green;
+      }
+      .red-text{
+        color: red;
+      }
+      .gray-text{
+        color: gray;
+      }
+      .grey-text{
+        color: grey;
+      }
+      .aqua-text{
+        color: aqua;
+      }
+      .maroon-text{
+        color: maroon;
+      }
+      .white-text{
+        color: white;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <form>
-    <h1><b>START YOUR TECH JOURNEY WITH NETISENS</b></h1>
-    <h5><b>Choose a Course To Register</b></h5>
+    <h1 id="white-text"><b>START YOUR TECH JOURNEY WITH NETISENS</b></h1>
+    <h5 class="navy-text"><b>Choose a Course To Register</b></h5>
       <input type="radio" id="Frontend Web Development" name="skill">
       <label for="Frontend Web Development">Frontend Web Development</label><br>
 
@@ -38,31 +80,31 @@
 
       <input type="radio" id="Machine Learning/AI" name="skill">
       <label for="Machine Learning/AI">Machine Learning/AI</label><br>
-
+       <div>
       <h3><b>Attendance</b></h3>
       <input type="radio" id="Online" name="class">
       <label for="Online">Online</label><br>
 
       <input type="radio" id="Onsite" name="class">
       <label for="Onsite">Onsite</label><br>
-
-      <h3><b>Register Here</b></h3>
-      <label for="1">NAME:</label>
+       </div>
+      <h3 class="green-text"><b>Register Here</b></h3>
+      <label for="1" class="red-text">NAME:</label>
       <input type="text" placeholder="enter your name"><br>
 
-      <label for="1">PHONE NUMBER:</label>
+      <label for="1" class="gray-text">PHONE NUMBER:</label>
       <input type="number" placeholder="enter mobile number"><br>
 
-      <label for="1">E-MAIL ADDRESS:</label>
+      <label for="1" class="grey-text">E-MAIL ADDRESS:</label>
       <input type="email" placeholder="enter e-mail adress"><br>
        
-      <label for="1">HOME ADDRESS:</label>
+      <label for="1" class="aqua-text">HOME ADDRESS:</label>
       <input type="text" placeholder="enter home address"><br>
 
-      <label for="1">CITY:</label>
+      <label for="1" class="white-text">CITY:</label>
       <input type="text"><br>
 
-      <label for="1">STATE:</label>
+      <label for="1" class="maroon-text">STATE:</label>
       <input type="text" placeholder="enter city"><br>
       <button>Submit</button>
      </form> 
